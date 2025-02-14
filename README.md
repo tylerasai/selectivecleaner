@@ -1,9 +1,5 @@
 # 🧹 Selective Cleaner - Chrome Extension
 
-[![License](https://img.shields.io/github/license/tylerasai/SelectiveCleaner)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/tylerasai/SelectiveCleaner)](https://github.com/tylerasai/SelectiveCleaner)
-![GitHub Repo stars](https://img.shields.io/github/stars/:user/https%3A%2F%2Fgithub.com%2Ftylerasai%2FSelectiveCleaner)
-
 **Selective Cleaner** is a **privacy-focused Chrome extension** that allows you to **delete cookies, browsing history, and cache for selected websites only**. No more clearing all your data—just clean the sites you want! 🚀
 
 ---
