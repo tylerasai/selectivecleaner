@@ -55,7 +55,6 @@ I ❤️ contributions! Feel free to:
 If you find this extension useful, consider supporting development! 😊
 
 ☕ **[Buy me a coffee](https://www.paypal.com/donate/?business=RRGVSHUY2L8JQ&no_recurring=0&item_name=Support+the+Selective+Cleaner+Chrome+Extension&currency_code=CAD)**  
-₿ **Donate with Crypto**: `your-crypto-wallet-address`  
 
 ---
 
