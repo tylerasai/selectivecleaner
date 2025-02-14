@@ -9,7 +9,7 @@
 ---
 
 ## 🎯 Features
-✅ **Delete browsing data for specific websites** (cache, cookies, history, formData)
+✅ **Delete browsing data for specific websites** (cache, cookies, history, formData) <br/>
 ✅ **Auto-clean intervals** (5 min, 10 min, hourly, daily, weekly, monthly)  
 ✅ **View & manage saved websites**  
 ✅ **Lightweight & privacy-friendly** (No tracking, no ads)  
@@ -44,14 +44,15 @@
 ## 📌 Screenshots
 | Main Popup UI | Saved Websites Page |
 |--------------|----------------|
-| ![Popup UI](https://via.placeholder.com/400x300?text=Popup+UI) | ![Full Page UI](https://via.placeholder.com/400x300?text=Full+Page+UI) |
+| ![Popup UI](https://github.com/user-attachments/assets/080e22c2-ff88-47d7-9020-8f2f6ac87201) | ![Full Page UI](https://github.com/user-attachments/assets/5f0be878-6711-492b-b57b-c86368e6e41e) |
 
 ---
 
 ## 🔥 Contributing
 I ❤️ contributions! Feel free to:
 - **Submit a Pull Request** (Fix a bug, add a feature)
-- **Report Issues** (Bugs, suggestions) via [GitHub Issues](https://github.com/yourusername/selective-cleaner/issues)
+
+- **Report Issues** (Bugs, suggestions) via [GitHub Issues](https://github.com/tylerasai/SelectiveCleaner/issues)
 - **Star the project** ⭐ to show your support!
 
 ## ❤️ Support the Project
