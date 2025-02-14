@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Manage Saved Websites</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+</head>
+
+<script type="module" src="./scripts/fullpage.js"></script>
+
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white p-6 max-w-lg mx-auto rounded-lg shadow-md">
+
+  <!-- Header -->
+  <h1 class="text-2xl font-bold flex items-center justify-between">
+    Saved Websites 📂
+    <button id="exitPage" class="bg-grey-500 hover:bg-grey-600 text-white px-3 py-1 rounded-lg text-sm">
+      ❌
+    </button>
+  </h1>
+
+  <!-- Website List -->
+  <ul id="savedWebsitesList" class="mt-4 space-y-2 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm"></ul>
+
+  <!-- Clear All Button -->
+  <button id="clearAll" class="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium mt-4">
+    🧹 Clear All Saved Websites
+  </button>
+
+  <button id="cleanAllSaved"
+    class="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-medium mt-4">
+    🗑️ Clean All Saved Websites
+  </button>
+
+
+  <!-- Auto-Clean Interval Section -->
+  <div class="mt-6">
+    <h2 class="text-lg font-semibold">Auto-Clean Interval</h2>
+    <select id="cleaningInterval"
+      class="w-full mt-2 p-2 border rounded-md focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white">
+      <option value="none">None</option>
+      <option value="5m">Every 5 Minutes</option>
+      <option value="10m">Every 10 Minutes</option>
+      <option value="hourly">Hourly</option>
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+      <option value="monthly">Monthly</option>
+    </select>
+    <button id="setCleaningInterval"
+      class="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium mt-3">
+      ✅ Set Interval
+    </button>
+  </div>
+
+  <!-- Donation Section -->
+  <div class="mt-8 p-4 bg-yellow-100 dark:bg-yellow-800 rounded-lg text-center shadow-md">
+    <h2 class="text-lg font-semibold">❤️ Support This Extension</h2>
+    <p class="text-sm mt-2">If you find this tool helpful, consider making a small donation!</p>
+    <div class="mt-4 space-y-2">
+      <a href="https://www.paypal.com/donate/?business=RRGVSHUY2L8JQ&no_recurring=0&item_name=Support+the+Selective+Cleaner+Chrome+Extension&currency_code=CAD"
+        target="_blank" class="w-full block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-medium">
+        ☕ Buy Me a Coffee (PayPal)
+      </a>
+      <a href="https://github.com/tylerasai/SelectiveCleaner" target="_blank"
+        class="w-full block bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium">
+        ⭐ Star this project on Github
+      </a>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

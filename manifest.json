@@ -5,25 +5,41 @@
   "description": "Delete cookies and browsing history selectively for predefined websites.",
   "permissions": [
     "browsingData",
-    "cookies"
+    "cookies",
+    "history",
+    "storage",
+    "tabs",
+    "alarms"
   ],
   "host_permissions": [
     "*://*/*"
   ],
   "action": {
-    "default_popup": "src/popup.html",
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "images/icon-16.png",
-      "48": "images/icon-48.png",
+      "48": "images/icon-32.png",
       "128": "images/icon-128.png"
     }
   },
   "background": {
-    "service_worker": "scripts/background.js"
+    "service_worker": "scripts/background.js",
+    "type": "module"
   },
   "icons": {
     "16": "images/icon-16.png",
-    "48": "images/icon-48.png",
+    "48": "images/icon-32.png",
     "128": "images/icon-128.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "scripts/cleaner.js",
+        "fullpage.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
 }
