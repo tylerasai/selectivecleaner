@@ -15,7 +15,7 @@
 ## 🛠️ Installation
 
 ### 🔹 **From Chrome Web Store**
-> Chrome store url here.
+> [Download for Chrome](https://chromewebstore.google.com/detail/selective-cleaner/fobpgbofooeiiiplngmekbhfbbdpbidh).
 
 ### 🔹 **Manual Installation (Developer Mode)**
 1. **Download the source code**  
